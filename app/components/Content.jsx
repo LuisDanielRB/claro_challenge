@@ -9,25 +9,25 @@ const VIDEOS = [
   {
     titulo: "TEAM LATAM",
     contenido: "Los Deportistas latinoamericanos que participan en Sochi 2014",
-    video: "https://www.youtube.com/watch?v=ygluZ0tB8S4",
+    video: "https://www.youtube.com/embed/ygluZ0tB8S4",
     img: "/img/team-latam.png",
   },
   {
     titulo: "TRAVEL MEETS FASHION",
     contenido: "Los Deportistas latinoamericanos que participan en Sochi 2014",
-    video: "https://www.youtube.com/watch?v=NU-KfPZOUsk",
+    video: "https://www.youtube.com/embed/NU-KfPZOUsk",
     img: "/img/travel-meets-fashion.png",
   },
   {
     titulo: "VELOCIDAD Y RIESGO",
     contenido: "Los Deportistas latinoamericanos que participan en Sochi 2014",
-    video: "https://www.youtube.com/watch?v=CrVL5tM926s",
+    video: "https://www.youtube.com/embed/CrVL5tM926s",
     img: "/img/velocidad-riesgo.png",
   },
   {
     titulo: "EXPERIENCIA MULTIMEDIA",
     contenido: "Los Deportistas latinoamericanos que participan en Sochi 2014",
-    video: "https://www.youtube.com/watch?v=hgXKJvTVW9g",
+    video: "https://www.youtube.com/embed/hgXKJvTVW9g",
     img: "/img/experiencia.png",
   },
 ];
@@ -48,10 +48,10 @@ const Content = () => {
           width="600"
           height="350"
           src={`${video.video}?autoplay=0&mute=1`}
-          titulo="YouTube video player"
+          title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
-        ></iframe>
+        />
       </div>
       <div className="pb-10">
         <h1 className="text-white text-center text-3xl font-light py-10">

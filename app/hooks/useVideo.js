@@ -10,8 +10,8 @@ export default function useVideo(initialValue) {
     img: initialValue.img,
   });
 
-  const handleVideo = (newVideo) => {
-    setVideo(newVideo);
+  const handleVideo = (video) => {
+    setVideo(video);
   };
 
   return {
